@@ -1,55 +1,31 @@
-- entity: UTC
-  link: https://www.utc.fr/
-  location: Compiègne, France
-  country : france
-  role: Computer Science and Engineering Degree
-  from: Feb 2018
-  to: present
-  description:
-    - 5-year degree equivalent of a Master of Science in engineering. GPA 4.96/5.
-    - Expected to graduate in Aug 2022
-  courses:
-    - "Computer science : algorithms, data structures, formal language theory"
-    - "Information technology : network architecture, database design"
-    - "Artificial intelligence : knowledge modeling"
-    - "Operations research : routing, ressource allocation, optimization, simulation."
-    - "Programming : object-oriented, logic, testing"
-    - "Statistics : probability, estimators, hypothesis testing, confidence"
-    - "Project management : agile methods, planning, risk analysis, budgeting"
-    - "Physics : acoustics, sensors, signal processing"
-
-- entity: Rīgas Tehniskā universitāte
-  link: https://www.rtu.lv/
-  location: Riga, Latvia
-  country: latvia
-  role: Exchange Student
+- entity: Aligarh Muslim University
+  link: https://www.amu.ac.in
+  location: Aligarh, India
+  country : India
+  role: Computer Engineering Degree
   from: Aug 2017
-  to: Jan 2018
-  description: Exchange student program (Erasmus)
+  to: Present
+  description:
+    - CGPA 9.2/10.
+    - Expected to graduate in Aug 2021
   courses:
-    - "Artificial Intelligence : graph and tree search algorithms"
-    - Business analytics and project management
-    - Structure of computers and Assembly language
-    - Progamming in C++
+    - Object Oriented Programming
+    - Introduction to Algorithms and Data Structures
+    - Advanced Algortihms
+    - Operating Systems
+    - Computer Architecutre
+    - Computer Networks (Undertaking)
+    - Databases (Undertaking)
+    - Signals and Systems
+    - Digital Logic
+    - Communication Engineering
 
-- entity: UTC
-  link: https://www.utc.fr/
-  location: Compiègne, France
-  country : france
-  role: Core Programme in Engineering
-  from: Sep 2015
-  to: Jun 2017
-  description: Two-year core curriculum.
-  courses:
-    - "Math : calculus, linear algebra"
-    - "Physics : electricity, geometrical optics, structure and properties of materials"
-    - "Chemistry : mineral, organic, biologic"
-    - "Programming : algorithms, complexity, grammars, decidability, automatons, Turing machine"
-
-- entity: Lycée Léonard de Vinci
-  location: Amboise, France
-  country: france
-  role: Baccalauréat
-  from: Sep 2012
-  to: Jun 2015
-  description: Science major, with a concentration in engineering. Graduated with honors
+- entity: Central Academy
+  location: Lucknow, India
+  country: India
+  role: Senior Secondary 
+  from: Apr 2014
+  to: Mar 2016
+  description: 
+    - Science major.
+    - 90.8% in Board Exams.

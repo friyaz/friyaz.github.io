@@ -1,7 +1,7 @@
 ---
-name: PlaceHolder Project
-tools: [nothing, important]
-image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-external_url: https://www.google.com
+name: Modified RISC-V GCC
+tools: [C, RISC-V, GCC]
+image: 
+description: Modified RISC-V GCC to detect floating point exception
+external_url: http://reports.ias.ac.in/report/21074/detecting-floating-point-exceptions-in-risc-v-using-gcc
 ---

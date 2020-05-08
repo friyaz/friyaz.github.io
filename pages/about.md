@@ -12,19 +12,25 @@ This personal website is still under construction, stay tuned!
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Languages" source=site.data.language-skills %}
 </div>
-**Other programming languages** : PHP, Prolog, Lisp, Assembly x64
+**Programming languages**: 
+- C/C++
+- Python
+- Java
+- x86 Assembly
+- RISC-V Assembly (Learning)
+- Javascript
 
-**Database** : MySQL, PostgreSQL, MondoDB, Oracle, neo4j	
+**Database** : 
+- MySQL
+- PostgreSQL
 
-## Python libraries
-
-- Data processing : numpy, pandas, dask
-- Data visualization : matplotlib, seaborn
-- Machine learning : scikit-learn, keras
-- Signal processing : librosa
-
+**Frameworks, Libraries and Programming Tools** :
+- Git
+- Tensorflow
+- SymPy
+- HTML/CSS	
+- Flask
 
 <div class="row">
 {% include about/timeline.html title="Experiences" source=site.data.experiences-timeline %}

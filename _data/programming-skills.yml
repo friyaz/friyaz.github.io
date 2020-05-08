@@ -1,27 +1,4 @@
-- name: Python
-  percentage: 100
-  level : Advanced
-  color:
 
-- name: SQL
-  percentage: 80
-  level : Intermediate
-  color:
-
-- name: C/C++
-  percentage: 75
-  level : Intermediate
-  color:
-
-- name: HTML/CSS
-  percentage: 70
-  level : Intermediate
-  color:
-
-- name: R
-  percentage: 50
-  level : Learning
-  color:
 
 # - name: Kotlin
 #   percentage: 45

@@ -1,11 +1,11 @@
-- entity: Airbus Commercial Aircraft
+- entity: Indian Institue of Technology Madras (IITM)
   link : https://www.airbus.com/
-  location: Toulouse, France
-  country: france
-  role: Machine Learning Apprentice
-  from: Sep 2018
-  to: present
-  description: 3-year apprenticeship in the acoustics department.
+  location: Chennai, India
+  country: India
+  role: Summer Research Fellow
+  from: June 2019 
+  to: July 2019
+  description: Worked on SHAKTI project under Professor V. Kamakoti. RISE lab is the birthplace of SHAKTI microprocessor series, India's first indigenous microprocessor. SHAKTI microprocessor use RISCV Instruction Set Architecture (ISA), a simple and open ISA.
   courses:
-    - "Anomaly detection : speeding up audio recording cleaning in a cost-effective and automated way, using machine learning (DBSCAN, IsolationForest)"
-    - "Data analysis : identifying parameters contributing to overall noise level variations"
+    - Modified GCC for RISC-V Instruction Set Architecture to detect floating-point exceptions.
+    - New assembly instructions were added after every floating-point operation to check for any IEEE floating point exception.
