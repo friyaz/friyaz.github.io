@@ -90,3 +90,8 @@ youtube:
   url   : https://www.youtube.com/
   icon  : fab fa-youtube
   color : ff0000
+  
+feed:
+  url   : https://friyaz.github.io/
+  icon  : fas fa-rss
+  color : ff0000  

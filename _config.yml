@@ -3,7 +3,10 @@ title               : Faisal Riyaz
 description         : This personal website is still under construction, stay tuned!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : friyaz/friyaz.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : hugolmn/portfolYOU
+remote_theme        : friyaz/portfolYOU
+url                 : http://friyaz.github.io
+name                : Faisal's Blog
+
 
 
 ### Plugins ###
@@ -14,7 +17,7 @@ plugins:
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
+  #- pages/tags.html
   - pages/404.html
   - pages/index.md
   #- pages/blog.html
@@ -30,7 +33,7 @@ author:
   email             : faisalriyaz011@gmail.com
 #  facebook          : your_username
   github            : friyaz
-  gitlab            : FrackeR011
+#  gitlab            : FrackeR011
 #  instagram         : hugo_le_moine
 #  kaggle            : hugolmn
   linkedin          : faisalriyaz
@@ -42,7 +45,8 @@ author:
 # twitch            : your_username
 # twitter           : your_username
 # vimeo             : your_username
-# youtube           : your_channel_name
+# youtube           : faisal
+  feed              : feed.xml         
 
 
 ### Posts ###
