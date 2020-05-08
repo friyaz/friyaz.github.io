@@ -1,6 +1,6 @@
 ---
-title: fdmn
-tags: [Sympy]
+title: Testing Jekyll
+tags: [Test]
 style: border
 color: primary
 description: A quick test of jekyll tools
@@ -8,4 +8,4 @@ description: A quick test of jekyll tools
 
 ## This is a first test of post using jekyll
 
-Sympy sd.fm,sd,.fm.,gfm
+Here is a lot of stuff
