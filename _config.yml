@@ -6,7 +6,7 @@ repository          : friyaz/friyaz.github.io     # Change to <your-username>/<y
 remote_theme        : friyaz/portfolYOU
 url                 : http://friyaz.github.io
 name                : Faisal's Blog
-
+comments_locked     : false
 
 
 ### Plugins ###
