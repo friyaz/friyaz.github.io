@@ -11,4 +11,10 @@ description: A quick test of jekyll tools
 
 Here is a lot of stuff
 
-  {% include comments.html %}
+```python3
+
+x = x + 4
+
+```
+    {% include comments.html %}
+
