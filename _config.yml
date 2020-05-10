@@ -6,7 +6,7 @@ repository          : friyaz/friyaz.github.io     # Change to <your-username>/<y
 remote_theme        : friyaz/portfolYOU
 url                 : http://friyaz.github.io
 name                : Faisal's Blog
-
+comments_locked     : false
 
 
 ### Plugins ###
@@ -67,6 +67,7 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+    comments: true
 
 ### Exclude from processing ###
 exclude:
@@ -74,3 +75,6 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+  
+staticman_url: https://dev-staticman.herokuapp.com/v2/entry/friyaz/friyaz.github.io/master/comments  
+
