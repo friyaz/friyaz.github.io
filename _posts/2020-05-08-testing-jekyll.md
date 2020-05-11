@@ -11,9 +11,7 @@ description: A quick test of jekyll tools
 
 Here is a lot of stuff
 
-##{% include elements/figure.html image="https://github.com/rribeiro1/github-aws-commit-mirror/raw/master/resources/logo.png" %}
-ETsrw9k6omM
-##{% include elements/video.html id="ETsrw9k6omM" %}
+
 
 {% include elements/github-edit-footer.html %}
 {% highlight python %}
