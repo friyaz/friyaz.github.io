@@ -17,7 +17,7 @@ plugins:
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  #- pages/tags.html
+  - pages/tags.html
   - pages/404.html
   - pages/index.md
   #- pages/blog.html
@@ -76,5 +76,5 @@ exclude:
   - LICENSE
   - "*.log"
   
-staticman_url: https://dev-staticman.herokuapp.com/v2/entry/friyaz/friyaz.github.io/master/comments  
+staticman_url: https://dev-staticman.herokuapp.com/v2/entry/friyaz/friyaz.github.io/master/comments   
 

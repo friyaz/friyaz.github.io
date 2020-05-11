@@ -1,8 +1,8 @@
 ---
 title: Testing Jekyll
 tags: [Test]
-style: border
-color: primary
+style: fill
+color: success
 
 description: A quick test of jekyll tools
 ---
