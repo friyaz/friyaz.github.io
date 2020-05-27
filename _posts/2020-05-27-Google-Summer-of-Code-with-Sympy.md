@@ -4,21 +4,21 @@ tags: [Sympy, GSoC]
 style: fill
 color: success
 
-description: My selection in GSoC 2020 and the community bonding period
+description: My selection in GSoC 2020 and the community bonding period.
 ---
 
 My proposal to SymPy has been selected for GSoC. My [project](https://summerofcode.withgoogle.com/organizations/4831132022996992/#6273573989122048) is to add the support of vector integration over Curves, Lines, and Surfaces to SymPy. My mentors are [Francesco Bonazzi](https://github.com/Upabjojr) and [DivyanshuThakur](https://github.com/divyanshu132). I am very excited to learn from them and contribute to SymPy.
 
 Google Summer of Code or GSoC is a three-month program to bring student developers into open source development. Students contribute to an open project for three months. Students apply by submitting proposals to organizations. Students can submit up to 3 proposals. I only submitted one as most students do. 
 
-When I started contributing to SymPy, I was new to Open-source. I looked through many projects. I found that SymPy was a great fit for my skills and interests. The [Introduction to contributing](https://github.com/sympy/sympy/wiki/Introduction-to-contributing) and [development workflow](https://github.com/sympy/sympy/wiki/Development-workflow) page is great. I received continuous feedback from the community on my Pull Requests. SymPy is well documented. SymPy is a great project to get started with the open-source if you are familiar with Python and comfortable with mathematics.
+When I started contributing to SymPy, I was new to Open-source. I looked through many projects. SymPy was a great fit for my skills and interests. The [Introduction to contributing](https://github.com/sympy/sympy/wiki/Introduction-to-contributing) and [development workflow](https://github.com/sympy/sympy/wiki/Development-workflow) pages are great and helpful. SymPy is well documented and the codebase is well maintained. I received continuous feedback from the community on my Pull Requests. SymPy is a great project to get started with the open-source if you are familiar with Python and comfortable with mathematics.
 
 # SymPy
 [SymPy](https://www.sympy.org/en/index.html) is a python library for symbolic mathematics. Symbolic computations are useful when we want to represent any mathematical quantity exactly. 
 
 SymPy is free software and is licensed under New BSD license. 
 
-Perhaps, the best way to get started with SymPy is to go through the SymPy [tutorial](https://docs.sympy.org/latest/tutorial/index.html). We can compute complicated math expressions, solve equations, perform integration, and many more things. 
+Perhaps, the best way to get started with SymPy is to go through the SymPy [tutorial](https://docs.sympy.org/latest/tutorial/index.html). We can compute complicated math expressions, solve equations, perform integration, and do many more things. 
 
 ```python
 >>> from sympy import *
@@ -87,14 +87,14 @@ To solve such integrals using Sympy, one first has to represent these integrals 
 # Community Bonding Period
 Community Bonding Period is the first phase of the program. Students try to get familiar with the community and the codebase. I have contributed to SymPy in the past so I was comfortable with the development workflow. 
 
-I submitted my proposal just before the deadline. Therefore, I could not discuss the proposal with the community. I wanted to use this period to discuss the API with the community and find any possible problem which can arise. I also wanted to get familiar with the vector module. SymPy, require that all student-mentor interactions happen on a public channel like a mailing list or Gitter. The Gitter channel for discussion is [sympy/vector](https://gitter.im/sympy/vector). If you have any ideas or suggestions or just want to check out the progress, do lurk around there. 
+I submitted my proposal just before the deadline. Therefore, I could not discuss the proposal with the community. I wanted to use this period to discuss the API with the community and find any possible problem which can arise. I also wanted to get familiar with the vector module. SymPy, require that all student-mentor interactions happen on a public channel like a mailing list or Gitter. The Gitter room for discussion related to vectors is [sympy/vector](https://gitter.im/sympy/vector). If you have any ideas or suggestions or just want to check out the progress, do lurk around there. 
 
 ## The API
-In my proposal, I suggested a possible API. Integral equations will be represented using subclasses of Integral. Then, we can write algorithms to perform computation. But there were some obvious problems with that API which Francesco highlighted. The API must be easy to use and intuitive for SymPy users. It has to be close to the mathematical representation in textbooks. This reduces the difficulty of learning a new API and allows the user to focus. I have started an [issue](https://github.com/sympy/sympy/issues/19320) for discussing the API with the rest of the community. I also looked at other CAS to get inspiration. Mathematica seems to do a good job of calculating vector integrals. 
+In my proposal, I suggested a possible API. But there were some obvious problems with that API which Francesco highlighted. The API must be easy to use and intuitive for SymPy users. It has to be close to the mathematical representation in textbooks. This reduces the difficulty of learning a new API and allows the user to focus. I have started an [issue](https://github.com/sympy/sympy/issues/19320) for discussing the API with the rest of the community. I also looked at other CAS to get inspiration. Mathematica seems to do a good job of calculating vector integrals. 
 
-I proposed separate classes for different types of integrals(Line, Surface, Volume). Francesco suggested that the classes should represent the way an integral is displayed, not what kind of integral it is. SymPy should distinguish what these integrals are.
+I proposed separate classes for different types of integrals(Line, Surface, Volume). Francesco suggested that the classes should represent the way an integral is displayed, not what kind of integral it is. SymPy should distinguish what these integrals are. Integral equations will be represented using subclasses of Integral. Then, we can write algorithms to perform computation.
 
-Another discussion was about the classes to represent special surfaces. Many problems involve integrating over geometric objects like Circle, Sphere, Rectangle, Disk, etc. It can be helpful to the users if SymPy provides classes to represent such geometric entities. This saves the user from defining these objects using their parametric or implicit equation. We have decided to leave this part for later.
+We discussed about the separate classes to represent special surfaces. Many problems involve integrating over geometric objects like Circle, Sphere, Rectangle, Disk, etc. It can be helpful to the users if SymPy provides classes to represent such geometric entities. This saves the user from defining these objects using their parametric or implicit equation. We have decided to leave this part for later.
 
 Another problem is determining the orientation of a surface. A surface can have two normals. The surface integral of scalar fields does not depend on the orientation. A surface integral of a vector field(flux) depends on the orientation. The result differs in sign. We decided that SymPy should always return the magnitude of the integral and it should be left to the user to decide the sign using the dot product.
       
@@ -113,7 +113,7 @@ We have decided to first handle integrals over parametric regions. I will implem
 >>> ParametricIntegral(f(x, y), (x, y), circle)
 ``` 
  
-We will handle implicit regions later. I plan to complete this work in the next phase hopefully and get started with implicit integrals from the next phase.
+We will handle implicit regions later. I plan to complete this work in the first phase hopefully and get started with implicit integrals from the next phase.
  
 I wanted to start coding early but due to midsemester exams, I could not. Most probably, the end-semester exams will not be conducted this summer. They will get conducted along with next semester's exams. So, I do not have any other major commitments for the next 3 months.
 
