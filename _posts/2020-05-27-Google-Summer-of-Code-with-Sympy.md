@@ -1,6 +1,6 @@
 ---
 title: Google Summer of Code with SymPy
-tags: [sympy, GSoC]
+tags: [Sympy, GSoC]
 style: fill
 color: success
 
