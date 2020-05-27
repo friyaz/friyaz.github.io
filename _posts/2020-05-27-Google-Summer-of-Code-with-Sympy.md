@@ -105,7 +105,7 @@ But handling such integrals is a difficult problem. To calculate the integral, w
 
 One approach to handle implicit equations is to write an algorithm to get the parametric representation from the implicit equation. This approach requires significant effort. We have decided to handle implicit integrals after we have completed the work on parametric integrals. 
 
-## Coclusion
+## Conclusion
 We have decided to first handle integrals over parametric regions. I will implement a class which will represent a parametric region in space. Another class will be implemented to represent an integral over a parametric region.
 
 ```python
