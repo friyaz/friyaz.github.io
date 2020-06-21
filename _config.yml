@@ -1,6 +1,6 @@
 ### Site Settings ###
 title               : Faisal Riyaz
-description         : Computer Engineering Undergraduate at Aligarh Muslim University
+description         : Hi! I am Faisal Riyaz.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : friyaz/friyaz.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : friyaz/portfolYOU
@@ -8,7 +8,9 @@ url                 : http://friyaz.github.io
 name                : Faisal's Blog
 comments_locked     : false
 highlighter: rouge
-
+links:
+  - "/about-me : About Me"
+  - "/projects : Projects"
 
 ### Plugins ###
 plugins:
