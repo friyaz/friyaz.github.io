@@ -7,8 +7,7 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-This personal website is still under construction, stay tuned!
+Hi! I am **{{ site.author.name }}**. I like watching documentaries and cricket. I have contributed to SymPy, an open source Python library for symolic computations.<br>
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

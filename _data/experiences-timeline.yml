@@ -1,5 +1,17 @@
+- entity: Google Suummer of Code - SymPy
+  link : https://gist.github.com/friyaz/2a5e4b53214775b41076e142bf4b9fa8
+  role: Student Developer
+  from: May 2020
+  to: August 2020
+  description: Extended the vector module of sympy to support the integration of scalar/vector fields over Curves, Surfaces and Volumes.
+  courses:
+    - Added classes to represent parametric and implicit regions. 
+    - Implemented the algorithm to obtain rational parametrization of implicit regions.
+    - Added classes to represent Integral of scalar/vector field over different regions.
+    - Completed the documentation and testing of new features. 
+  
 - entity: Indian Institue of Technology Madras (IITM)
-  link : https://www.airbus.com/
+  link : http://reports.ias.ac.in/report/21074/detecting-floating-point-exceptions-in-risc-v-using-gcc
   location: Chennai, India
   country: India
   role: Summer Research Fellow
