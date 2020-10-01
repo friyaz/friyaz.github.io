@@ -2,7 +2,7 @@
 title: GSoC Final Report
 tags: [Sympy, GSoC]
 style: fill
-color: sucess
+color: success
 
 description: Final report of GSoC with SymPy
 ---
