@@ -63,19 +63,3 @@ comments:
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
-
- notifications:
-    # Enable notifications
-    enabled: true
-
-    # (!) ENCRYPTED
-    #
-    # Mailgun API key
-    apiKey: "DHHHCZR6pFD9brdrNnK0+o4wcVo/pMOxBueiVzzM/7Ll7NhhX2I2jsELvzVqMieJ2c0D1adTxMuJ9ukGlTzfQNK+STAxNTZYUr2gW9C8y+UBXZwBDujhNbI21mI49eP+sU7j6KKY1F0sgspayWiBgTQQP1iwl72MhT9FVvGATs5z5A5VOFgSgLtn+VHj0KZVhDezKlSknvDEvr4wqpIamzmMmGM+J1YG3jFoIX1X7bzQwaHCwFcjvON8inaDYcu/XYCPDOCtqvyFxRZpMJ8qLHPiMgggpVlUrOpnUOX48lC9+E4K6o98YBKj4S+Uy+w/U6avh+6TOQ9jkC3QgHP+GD9M3EULoLbLu6h2rZdj5/gWtckxHCt3zSvS6KOWytTyMuypwx2mLLS4Lda9HHRIh6M+wXbfN1XARhfMIBIyTUvFiP55IwXIbZT3XCcg0xM9oJg/p0/4mfPkd+zNz0tMGHdj78uGEFJGNqatEty0jgpYYyEtmpDTNt9bcWIJRLNvxMXZVxMXCHLOK15PYloUsHlE7Ts27NtDltF78RwwQ1gZaxaERBgkGI3bbHDTVbMQ/C21olCx/rs4JGYjKzqOBJTtfP7vcKfalMLdnSX1A99JuKiCsdntQ+m7pZrorFljY6tVBeRVDOUBj+yQm9vT4ZyoorSAl/2vDPHhDQZUabg="
-
-
-    # (!) ENCRYPTED
-    #
-    # Mailgun domain (encrypted)
-    domain: "AlawAnOUgfG/onHCDlqNf5iQpWPhZ8c0M9H3Sh6mkFUJuQnENdvkOJzjOdm0n2Z3KwHCMuGwjgULxh56KYo/D9AMKWFjtdw4apyQs7nigXgt5eK2cJZz1+VJLJoZ4JVCV7eIy3nzRl7Dk7ixbKwMymGgwDwpegsVV61ZXunx2snu0OuA4xaQbNXDETejcTbR3sKf+fLFsYzldYz2Woey6m/s9L+mQPvVKisa6nQzD0p9gW6AMxZBNnWJpLBpIgut7E5a2tBiW24spn9CwRzRIIrz3y9l4i56JB7hDmLC5yN4s6R0LAzGR7ZJEievKwy8xw2L5FC0Ss36iyMsY6eTZB2j0s6TIT/rBV+B3q/DkM0LN2Iv0lrbNFaUsAKPSZgMhPU3gQboz0mckBswYk2nzNkkBERW7KLEAi9ItAJli7YUP8Oes1NiBFu/x/ZsDc8rOVzGxPcWYXy7ZYvSPkKYPeCIinmBFId77cw0w4KCtUH6fmKx862mGT1dsfwfOtu5HGxoz1yZ091Vke4TytJ2MTed1MCWTodIESRAlt4cvWUYnmF8w/oBrivcZ2GusZe6FoDKkET+ldM1poMJo+vFcDdF9lNDkLov0o6swIS8GsGH7ltm2cLwBWVYJFbwV/ry3ExhRHIV+I5AB+OHY/sakxD03xvayoXj3XU1vCkr/oQ="
-    
