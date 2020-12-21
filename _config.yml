@@ -79,5 +79,5 @@ exclude:
   - LICENSE
   - "*.log"
   
-staticman_url: https://dev-staticman.herokuapp.com/v2/entry/friyaz/friyaz.github.io/master/comments   
+staticman_url: https://staticmann.herokuapp.com/v2/entry/friyaz/friyaz.github.io/master/comments 
 
