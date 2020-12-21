@@ -63,6 +63,7 @@ spotify:
 
 stackoverflow:
   url   : https://stackoverflow.com/users/
+  icon  : fab fa-stack-overflow 
   color : f48024
 
 tumblr:
